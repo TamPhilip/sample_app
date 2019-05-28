@@ -1,0 +1,17 @@
+current directory: /Users/philiptam/Projects/Ruby/Tutorial/environment/sample_app/vendor/bundle/gems/bindex-0.7.0/ext/skiptrace
+/Users/philiptam/.rvm/rubies/ruby-2.6.3/bin/ruby -I /Users/philiptam/.rvm/rubies/ruby-2.6.3/lib/ruby/2.6.0 -r ./siteconf20190528-47450-4yg54e.rb extconf.rb
+creating Makefile
+
+current directory: /Users/philiptam/Projects/Ruby/Tutorial/environment/sample_app/vendor/bundle/gems/bindex-0.7.0/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /Users/philiptam/Projects/Ruby/Tutorial/environment/sample_app/vendor/bundle/gems/bindex-0.7.0/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/cruby.bundle
+ld: warning: directory not found for option '-L/usr/local/opt/ruby/lib'
+ld: warning: directory not found for option '-L/usr/local/opt/ruby/lib'
+
+current directory: /Users/philiptam/Projects/Ruby/Tutorial/environment/sample_app/vendor/bundle/gems/bindex-0.7.0/ext/skiptrace
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 cruby.bundle ./.gem.20190528-47450-1cpspcg/skiptrace

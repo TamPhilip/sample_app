@@ -1,0 +1,17 @@
+current directory: /Users/philiptam/Projects/Ruby/Tutorial/environment/sample_app/vendor/bundle/gems/bootsnap-1.4.4/ext/bootsnap
+/Users/philiptam/.rvm/rubies/ruby-2.6.3/bin/ruby -I /Users/philiptam/.rvm/rubies/ruby-2.6.3/lib/ruby/2.6.0 -r ./siteconf20190528-47450-1kyx229.rb extconf.rb
+creating Makefile
+
+current directory: /Users/philiptam/Projects/Ruby/Tutorial/environment/sample_app/vendor/bundle/gems/bootsnap-1.4.4/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /Users/philiptam/Projects/Ruby/Tutorial/environment/sample_app/vendor/bundle/gems/bootsnap-1.4.4/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+ld: warning: directory not found for option '-L/usr/local/opt/ruby/lib'
+ld: warning: directory not found for option '-L/usr/local/opt/ruby/lib'
+
+current directory: /Users/philiptam/Projects/Ruby/Tutorial/environment/sample_app/vendor/bundle/gems/bootsnap-1.4.4/ext/bootsnap
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 bootsnap.bundle ./.gem.20190528-47450-1hitsqk/bootsnap

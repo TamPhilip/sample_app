@@ -1,0 +1,17 @@
+current directory: /Users/philiptam/Projects/Ruby/Tutorial/environment/sample_app/vendor/bundle/gems/websocket-driver-0.7.0/ext/websocket-driver
+/Users/philiptam/.rvm/rubies/ruby-2.6.3/bin/ruby -I /Users/philiptam/.rvm/rubies/ruby-2.6.3/lib/ruby/2.6.0 -r ./siteconf20190528-47450-10hzap7.rb extconf.rb
+creating Makefile
+
+current directory: /Users/philiptam/Projects/Ruby/Tutorial/environment/sample_app/vendor/bundle/gems/websocket-driver-0.7.0/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /Users/philiptam/Projects/Ruby/Tutorial/environment/sample_app/vendor/bundle/gems/websocket-driver-0.7.0/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+ld: warning: directory not found for option '-L/usr/local/opt/ruby/lib'
+ld: warning: directory not found for option '-L/usr/local/opt/ruby/lib'
+
+current directory: /Users/philiptam/Projects/Ruby/Tutorial/environment/sample_app/vendor/bundle/gems/websocket-driver-0.7.0/ext/websocket-driver
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 websocket_mask.bundle ./.gem.20190528-47450-kss2it
