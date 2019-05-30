@@ -11,6 +11,8 @@ gem 'rails-controller-testing'
 gem 'bcrypt',         '3.1.12'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
+#Add JQUERY
+gem 'jquery-rails'
 # Use bootstrap for html styling
 gem 'bootstrap-sass', '3.4.1'
 # Use SCSS for stylesheets
