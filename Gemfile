@@ -7,10 +7,17 @@ ruby '2.6.3'
 gem 'rails', '~> 5.2.3'
 # Use controller testing for integration test
 gem 'rails-controller-testing'
+
+#use faker to make sample_users
+gem 'faker'
 # Use bcrypt to encrypt the user's password
 gem 'bcrypt',         '3.1.12'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
+# Will allow paginate
+gem 'will_paginate'
+# Will change paginate to use boostraps
+gem 'bootstrap-will_paginate'
 #Add JQUERY
 gem 'jquery-rails'
 # Use bootstrap for html styling
