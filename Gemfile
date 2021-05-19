@@ -13,7 +13,7 @@ gem 'faker'
 # Use bcrypt to encrypt the user's password
 gem 'bcrypt',         '3.1.12'
 # Use Puma as the app server
-gem 'puma', '~> 3.11'
+gem 'puma', '~> 4.3'
 # Will allow paginate
 gem 'will_paginate'
 # Will change paginate to use boostraps
